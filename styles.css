@@ -7,22 +7,20 @@ body {
     margin:0;
     background-color: #644d92;
     background-image: linear-gradient(to bottom, #644d92 0%, #160526 100%);
-}
+    position: relative;
+  }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #141414;
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  text-align: center;
-  
-
   text-align: center;
 }
 
@@ -35,7 +33,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #4b00ad;
 }
 
 
@@ -43,3 +41,18 @@ li a:hover:not(.active) {
     background-color: transparent !important;
   }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #141414;
+  color: white;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#gorilla {
+  height: 200px;
+  width: 200px;
+}
